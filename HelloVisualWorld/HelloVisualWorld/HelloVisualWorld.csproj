@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2FB340DB-ED36-4FEE-A89B-99E457A6B7CC}</ProjectGuid>
+    <ProjectGuid>{1593F0D9-A929-496C-BFFE-EB9026742545}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MyFistApp</RootNamespace>
-    <AssemblyName>MyFistApp</AssemblyName>
+    <RootNamespace>HelloVisualWorld</RootNamespace>
+    <AssemblyName>HelloVisualWorld</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,6 +53,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

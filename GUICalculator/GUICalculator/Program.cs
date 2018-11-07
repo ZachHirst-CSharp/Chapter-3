@@ -16,7 +16,7 @@ namespace GUICalculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LblReultAdd());
+            Application.Run(new Form1());
         }
     }
 }

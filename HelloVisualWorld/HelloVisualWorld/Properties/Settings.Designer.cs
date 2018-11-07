@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MyFistApp.Properties
+namespace HelloVisualWorld.Properties
 {
 
 

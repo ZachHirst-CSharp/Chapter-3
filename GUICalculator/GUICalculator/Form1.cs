@@ -10,42 +10,50 @@ using System.Windows.Forms;
 
 namespace GUICalculator
 {
-    public partial class LblReultAdd : Form
+    public partial class Form1 : Form
     {
-        public LblReultAdd()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnAdd_Click(object sender, EventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
             int num1;
             int num2;
             int sum;
             num1 = Convert.ToInt32(txtbox1.Text);
             num2 = Convert.ToInt32(txtbox2.Text);
-
             sum = num1 + num2;
-            lblResultAdd.Text = "The sum is " + sum;
+            lblResult.Text = "The Sum is " + sum;
+            lblSign.Visible = true;
+            lblSign.Text = "+";
         }
 
-       
-
-        private void BtnSub_Click(object sender, EventArgs e)
+        private void btnSub_Click(object sender, EventArgs e)
         {
             int num1;
             int num2;
-            int difference;
+            int diff;
             num1 = Convert.ToInt32(txtbox1.Text);
             num2 = Convert.ToInt32(txtbox2.Text);
+            diff = num1 - num2;
+            lblResult.Text = "The Difference is " + diff;
+            lblSign.Visible = true;
+            lblSign.Text = "-";
+        }
 
-            difference = num1 - num2;
-            lblResultSub.Text = "The difference is " + difference;
+        private void btnMultiply_Click(object sender, EventArgs e)
+        {
+            int num1;
+            int num2;
+            int product;
+            num1 = Convert.ToInt32(txtbox1.Text);
+            num2 = Convert.ToInt32(txtbox2.Text);
+            product = num1 * num2;
+            lblResult.Text = "The Product is " + product;
+            lblSign.Visible = true;
+            lblSign.Text = "*";
         }
     }
 }

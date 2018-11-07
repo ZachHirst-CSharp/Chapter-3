@@ -2,9 +2,9 @@ C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\bin\Debug\GUI
 C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\bin\Debug\GUICalculator.exe
 C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\bin\Debug\GUICalculator.pdb
 C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\obj\Debug\GUICalculator.csprojAssemblyReference.cache
+C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\obj\Debug\GUICalculator.Form1.resources
 C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\obj\Debug\GUICalculator.Properties.Resources.resources
 C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\obj\Debug\GUICalculator.csproj.GenerateResource.cache
 C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\obj\Debug\GUICalculator.csproj.CoreCompileInputs.cache
 C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\obj\Debug\GUICalculator.exe
 C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\obj\Debug\GUICalculator.pdb
-C:\Users\zh311478\Desktop\C#\Chapter-3\GUICalculator\GUICalculator\obj\Debug\GUICalculator.LblReultAdd.resources
