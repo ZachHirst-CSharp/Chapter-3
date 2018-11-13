@@ -37,6 +37,8 @@
             this.lblSign = new System.Windows.Forms.Label();
             this.btnSub = new System.Windows.Forms.Button();
             this.btnMultiply = new System.Windows.Forms.Button();
+            this.btnDivide = new System.Windows.Forms.Button();
+            this.btnMod = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbox1
@@ -77,7 +79,7 @@
             // 
             this.btnAdd.Location = new System.Drawing.Point(62, 193);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(31, 23);
+            this.btnAdd.Size = new System.Drawing.Size(55, 23);
             this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -106,7 +108,7 @@
             // 
             this.btnSub.Location = new System.Drawing.Point(123, 193);
             this.btnSub.Name = "btnSub";
-            this.btnSub.Size = new System.Drawing.Size(29, 23);
+            this.btnSub.Size = new System.Drawing.Size(56, 23);
             this.btnSub.TabIndex = 7;
             this.btnSub.Text = "-";
             this.btnSub.UseVisualStyleBackColor = true;
@@ -116,17 +118,39 @@
             // 
             this.btnMultiply.Location = new System.Drawing.Point(185, 193);
             this.btnMultiply.Name = "btnMultiply";
-            this.btnMultiply.Size = new System.Drawing.Size(31, 23);
+            this.btnMultiply.Size = new System.Drawing.Size(65, 23);
             this.btnMultiply.TabIndex = 8;
             this.btnMultiply.Text = "*";
             this.btnMultiply.UseVisualStyleBackColor = true;
             this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
+            // 
+            // btnDivide
+            // 
+            this.btnDivide.Location = new System.Drawing.Point(256, 193);
+            this.btnDivide.Name = "btnDivide";
+            this.btnDivide.Size = new System.Drawing.Size(59, 23);
+            this.btnDivide.TabIndex = 9;
+            this.btnDivide.Text = "/";
+            this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
+            // 
+            // btnMod
+            // 
+            this.btnMod.Location = new System.Drawing.Point(321, 193);
+            this.btnMod.Name = "btnMod";
+            this.btnMod.Size = new System.Drawing.Size(65, 23);
+            this.btnMod.TabIndex = 10;
+            this.btnMod.Text = "%";
+            this.btnMod.UseVisualStyleBackColor = true;
+            this.btnMod.Click += new System.EventHandler(this.btnMod_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 450);
+            this.Controls.Add(this.btnMod);
+            this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.btnMultiply);
             this.Controls.Add(this.btnSub);
             this.Controls.Add(this.lblSign);
@@ -154,6 +178,8 @@
         private System.Windows.Forms.Label lblSign;
         private System.Windows.Forms.Button btnSub;
         private System.Windows.Forms.Button btnMultiply;
+        private System.Windows.Forms.Button btnDivide;
+        private System.Windows.Forms.Button btnMod;
     }
 }
 

@@ -55,5 +55,31 @@ namespace GUICalculator
             lblSign.Visible = true;
             lblSign.Text = "*";
         }
+
+        private void btnDivide_Click(object sender, EventArgs e)
+        {
+            int num1;
+            int num2;
+            int quotient;
+            num1 = Convert.ToInt32(txtbox1.Text);
+            num2 = Convert.ToInt32(txtbox2.Text);
+            quotient = num1 / num2;
+            lblResult.Text = "The Quotient is " + quotient;
+            lblSign.Visible = true;
+            lblSign.Text = "/";
+        }
+
+        private void btnMod_Click(object sender, EventArgs e)
+        {
+            int num1;
+            int num2;
+            int remmainder;
+            num1 = Convert.ToInt32(txtbox1.Text);
+            num2 = Convert.ToInt32(txtbox2.Text);
+            remmainder = num1 % num2;
+            lblResult.Text = "The remainder is " + remmainder;
+            lblSign.Visible = true;
+            lblSign.Text = "%";
+        }
     }
 }
