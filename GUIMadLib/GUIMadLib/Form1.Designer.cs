@@ -226,7 +226,7 @@
             this.Controls.Add(this.txtBoxColor);
             this.Controls.Add(this.txtBoxStory);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "For";
             this.ResumeLayout(false);
             this.PerformLayout();
 

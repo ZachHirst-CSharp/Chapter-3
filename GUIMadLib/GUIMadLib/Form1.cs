@@ -19,7 +19,20 @@ namespace GUIMadLib
 
         private void btnCompile_Click(object sender, EventArgs e)
         {
-             String Color = txtBoxColor.Text;
+            string Color = txtBoxColor.Text;
+            string Est = txtBoxEst.Text;
+            string PBP = txtBoxBPP.Text;
+            string Animal = txtBoxAnimal.Text;
+            string Noun = txtBoxNoun.Text;
+            string PluralNoun = txtBoxPluralNoun.Text;
+            int num1;
+            int num2;
+            int difference;
+
+            num1 = Convert.ToInt32(txtBoxInteger.Text);
+            num2 = Convert.ToInt32(txtBoxAnotherInteger.Text);
+            difference = num1 - num2;
+
             txtBoxStory.Text = "" + Color; //curly brackets dont work
         }
     }
