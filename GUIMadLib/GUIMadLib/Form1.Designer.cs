@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtBoxStory = new System.Windows.Forms.TextBox();
             this.txtBoxColor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,15 +45,11 @@
             this.txtBoxInteger = new System.Windows.Forms.TextBox();
             this.txtBoxAnotherInteger = new System.Windows.Forms.TextBox();
             this.btnCompile = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lbl0 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // txtBoxStory
-            // 
-            this.txtBoxStory.Location = new System.Drawing.Point(12, 265);
-            this.txtBoxStory.Multiline = true;
-            this.txtBoxStory.Name = "txtBoxStory";
-            this.txtBoxStory.Size = new System.Drawing.Size(776, 173);
-            this.txtBoxStory.TabIndex = 0;
             // 
             // txtBoxColor
             // 
@@ -202,11 +197,49 @@
             this.btnCompile.UseVisualStyleBackColor = true;
             this.btnCompile.Click += new System.EventHandler(this.btnCompile_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(4, 263);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 13);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Welcome to the ";
+            // 
+            // lbl0
+            // 
+            this.lbl0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl0.Location = new System.Drawing.Point(89, 262);
+            this.lbl0.Name = "lbl0";
+            this.lbl0.Size = new System.Drawing.Size(83, 23);
+            this.lbl0.TabIndex = 19;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(176, 263);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(131, 13);
+            this.label10.TabIndex = 20;
+            this.label10.Text = "story about a man and his ";
+            // 
+            // lbl1
+            // 
+            this.lbl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl1.Location = new System.Drawing.Point(307, 262);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(100, 23);
+            this.lbl1.TabIndex = 21;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lbl0);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.btnCompile);
             this.Controls.Add(this.txtBoxAnotherInteger);
             this.Controls.Add(this.txtBoxInteger);
@@ -224,7 +257,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtBoxColor);
-            this.Controls.Add(this.txtBoxStory);
             this.Name = "Form1";
             this.Text = "For";
             this.ResumeLayout(false);
@@ -233,8 +265,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtBoxStory;
         private System.Windows.Forms.TextBox txtBoxColor;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -252,6 +282,10 @@
         private System.Windows.Forms.TextBox txtBoxInteger;
         private System.Windows.Forms.TextBox txtBoxAnotherInteger;
         private System.Windows.Forms.Button btnCompile;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lbl0;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lbl1;
     }
 }
 
