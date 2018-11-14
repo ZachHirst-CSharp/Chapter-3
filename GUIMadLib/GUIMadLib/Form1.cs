@@ -33,7 +33,9 @@ namespace GUIMadLib
             num2 = Convert.ToInt32(txtBoxAnotherInteger.Text);
             difference = num1 - num2;
 
-            // welcome to the ,color, Story about a man and his ,animal, his , animal , is the , est, in the , num1, universe(s). His ,animal, was 
+            // welcome to the ,color, Story about a man and his ,animal, which is the , est, in the , num1, universe(s). His ,animal, was 
         }
+
+       
     }
 }

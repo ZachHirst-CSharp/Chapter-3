@@ -49,6 +49,9 @@
             this.lbl0 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.lbl2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtBoxColor
@@ -231,11 +234,39 @@
             this.lbl1.Size = new System.Drawing.Size(100, 23);
             this.lbl1.TabIndex = 21;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(413, 263);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(66, 13);
+            this.label11.TabIndex = 22;
+            this.label11.Text = "which is the ";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(488, 262);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(0, 13);
+            this.label12.TabIndex = 23;
+            // 
+            // lbl2
+            // 
+            this.lbl2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl2.Location = new System.Drawing.Point(478, 262);
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Size = new System.Drawing.Size(108, 23);
+            this.lbl2.TabIndex = 24;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl2);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.lbl0);
@@ -286,6 +317,9 @@
         private System.Windows.Forms.Label lbl0;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lbl2;
     }
 }
 
