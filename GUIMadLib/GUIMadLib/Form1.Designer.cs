@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtBoxColor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,6 +53,23 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.lbl2 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.lbl3 = new System.Windows.Forms.Label();
+            this.lbl4 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lbl5 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.lbl6 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.lbl7 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.lbl8 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.lbl9 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.lbl10 = new System.Windows.Forms.Label();
+            this.lbl11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtBoxColor
@@ -259,11 +277,174 @@
             this.lbl2.Size = new System.Drawing.Size(108, 23);
             this.lbl2.TabIndex = 24;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(592, 263);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(36, 13);
+            this.label13.TabIndex = 25;
+            this.label13.Text = "in the ";
+            // 
+            // lbl3
+            // 
+            this.lbl3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl3.Location = new System.Drawing.Point(7, 298);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(56, 23);
+            this.lbl3.TabIndex = 26;
+            // 
+            // lbl4
+            // 
+            this.lbl4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl4.Location = new System.Drawing.Point(157, 297);
+            this.lbl4.Name = "lbl4";
+            this.lbl4.Size = new System.Drawing.Size(89, 23);
+            this.lbl4.TabIndex = 27;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(69, 299);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(82, 13);
+            this.label14.TabIndex = 28;
+            this.label14.Text = "universe(s). His ";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(252, 299);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(61, 13);
+            this.label15.TabIndex = 29;
+            this.label15.Text = "was eating ";
+            // 
+            // lbl5
+            // 
+            this.lbl5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl5.Location = new System.Drawing.Point(319, 299);
+            this.lbl5.Name = "lbl5";
+            this.lbl5.Size = new System.Drawing.Size(88, 23);
+            this.lbl5.TabIndex = 30;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(413, 300);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(277, 13);
+            this.label17.TabIndex = 31;
+            this.label17.Text = "which had apparently came from a cart that was going to ";
+            // 
+            // lbl6
+            // 
+            this.lbl6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl6.Location = new System.Drawing.Point(13, 339);
+            this.lbl6.Name = "lbl6";
+            this.lbl6.Size = new System.Drawing.Size(100, 23);
+            this.lbl6.TabIndex = 32;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(120, 339);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(179, 13);
+            this.label16.TabIndex = 33;
+            this.label16.Text = "in hopes that they could sell it to the ";
+            // 
+            // lbl7
+            // 
+            this.lbl7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl7.Location = new System.Drawing.Point(306, 338);
+            this.lbl7.Name = "lbl7";
+            this.lbl7.Size = new System.Drawing.Size(100, 23);
+            this.lbl7.TabIndex = 34;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(416, 338);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(85, 13);
+            this.label18.TabIndex = 35;
+            this.label18.Text = ". Sadly Since his";
+            // 
+            // lbl8
+            // 
+            this.lbl8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl8.Location = new System.Drawing.Point(507, 337);
+            this.lbl8.Name = "lbl8";
+            this.lbl8.Size = new System.Drawing.Size(100, 23);
+            this.lbl8.TabIndex = 36;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(12, 384);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(22, 13);
+            this.label19.TabIndex = 37;
+            this.label19.Text = "ate";
+            // 
+            // lbl9
+            // 
+            this.lbl9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl9.Location = new System.Drawing.Point(40, 383);
+            this.lbl9.Name = "lbl9";
+            this.lbl9.Size = new System.Drawing.Size(49, 23);
+            this.lbl9.TabIndex = 38;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(95, 384);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(92, 13);
+            this.label20.TabIndex = 39;
+            this.label20.Text = "they were left with";
+            // 
+            // lbl10
+            // 
+            this.lbl10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl10.Location = new System.Drawing.Point(194, 383);
+            this.lbl10.Name = "lbl10";
+            this.lbl10.Size = new System.Drawing.Size(100, 23);
+            this.lbl10.TabIndex = 40;
+            // 
+            // lbl11
+            // 
+            this.lbl11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl11.Location = new System.Drawing.Point(300, 383);
+            this.lbl11.Name = "lbl11";
+            this.lbl11.Size = new System.Drawing.Size(100, 23);
+            this.lbl11.TabIndex = 41;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbl11);
+            this.Controls.Add(this.lbl10);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.lbl9);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.lbl8);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.lbl7);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.lbl6);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.lbl5);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.lbl4);
+            this.Controls.Add(this.lbl3);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.lbl2);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -320,6 +501,23 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label lbl2;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lbl3;
+        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lbl5;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lbl6;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lbl7;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lbl8;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lbl9;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label lbl10;
+        private System.Windows.Forms.Label lbl11;
     }
 }
 
