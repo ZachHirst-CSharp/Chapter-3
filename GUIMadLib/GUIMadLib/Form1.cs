@@ -45,8 +45,9 @@ namespace GUIMadLib
             lbl10.Text = " " + difference;
             lbl11.Text = " " + txtBoxBPP.Text;
 
-            // welcome to the ,color, Story about a man and his ,animal, which is the , est, in the , num1, universe(s). His ,animal, was eating ,body part plural, which had apparently came from a cart that was going to ,noun, , in hopes that 
+            //lbl11.Text =  "welcome to the ," + txtBoxColor.text +, Story about a man and his ,animal, which is the , est, in the , num1, universe(s). His ,animal, was eating ,body part plural, which had apparently came from a cart that was going to ,noun, , in hopes that 
             // they could sell it to the , plural noun , . Sadly since his , animal , ate ,num2, they were left with , difference , ,body part plural, . 
+
         }
     }
 }
