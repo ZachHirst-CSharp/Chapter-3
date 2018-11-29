@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2FE9E0C4-CA81-4746-B5F9-707A8E1C1D7D}</ProjectGuid>
+    <ProjectGuid>{828E032B-3170-4AF9-83BD-A9269858E496}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>GreenVilleRevenueGUI</RootNamespace>
-    <AssemblyName>GreenVilleRevenueGUI</AssemblyName>
+    <RootNamespace>GreenvilleRevenueGUI</RootNamespace>
+    <AssemblyName>GreenvilleRevenueGUI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

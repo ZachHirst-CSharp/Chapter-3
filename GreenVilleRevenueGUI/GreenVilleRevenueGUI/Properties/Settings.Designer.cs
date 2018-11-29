@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GreenVilleRevenueGUI.Properties
+namespace GreenvilleRevenueGUI.Properties
 {
 
 
